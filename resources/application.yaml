@@ -1,0 +1,6 @@
+WEATHER_STACK:
+  API_KEY: 87465c8fd14603983c5984194b826ab1
+  URL: "http://api.weatherstack.com/current?access_key=%s&query=%s"
+OPEN_WEATHER_MAP:
+  API_KEY: 3f87ad368e051dfbc31504bde3a7fa16
+  URL: "http://api.openweathermap.org/data/2.5/weather?appid=%s&q=%s,AU"
