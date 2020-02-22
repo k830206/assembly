@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python -m virtualenv weather --python=$(which python3)
-source weather/bin/activate
+python -m virtualenv weather_env --python=$(which python3)
+source weather_env/bin/activate
 
 ./run_server.sh
